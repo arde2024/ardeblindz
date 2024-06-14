@@ -14,3 +14,11 @@ include.js,8/9/8934021dd2f7c128475fe58a1bec70602eed4817
 header.html,b/9/b987ffd067ea9e31cb7274f9eb3298d776f2991a
 ;
 footer.html,e/8/e82cae1ac6cf652322e2a6ca41857534361191cf
+5
+CNAME,b/9/b9c1aaaf65573c7e15b93b6d826729e7711cf242
+:
+
+quote.html,8/7/87b42b619676cca2b6c0a5c772da35f10e8df584
+:
+
+about.html,8/1/8143af03f594989ae71e2d1be57beadf78357d4c
