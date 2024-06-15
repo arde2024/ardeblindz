@@ -8,7 +8,7 @@ body {
 .navbar {
     display: flex;
     justify-content: space-between;
-    background-color: #032454;
+    background-color: #ffffff;
     align-items: stretch;
     padding: 0; /* Remove padding */
     height: 80px; /* Set this to the height of your navbar */
@@ -17,7 +17,7 @@ body {
 .navbar-item {
     padding-left: 20px;
     padding-right: 20px;
-    color: #98BBFB;
+    color: #11222b;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -87,7 +87,7 @@ body {
 }
 
 footer {
-    background-color: rgba(6, 6, 6, 1);
+    background-color: #11222b;
     color: #cccccc;
     display: flex;
     justify-content: space-between;
