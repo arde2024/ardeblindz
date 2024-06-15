@@ -26,3 +26,17 @@ about.html,8/1/8143af03f594989ae71e2d1be57beadf78357d4c
 testpage.html,f/b/fbf9238e1e96ac57f6bbc70b3a5ca45054cd4ae3
 >
 css/styles.css,8/3/8321775d26c1b74276abda7aafa418d98009580c
+?
+images/mail.svg,b/4/b4e5afc815ac3b8deb688c73cfa93dc40b6c773e
+C
+images/whatsapp.svg,c/c/cc765f862a98b8c9939dab8594928895849b4166
+?
+images/call.svg,7/5/75d26f9d7fbe359584fe52928ea8a257c3d8c3f4
+C
+images/facebook.svg,1/a/1a42b95f1f5baec9a426f5ab0f36bbbfd1fc3dd5
+D
+images/instagram.svg,b/b/bbbd0ac268e03b81598b09c1d41f362487fc336e
+B
+images/youtube.svg,e/c/ece414dfd0a2edfc710c2b9b723a409e30573ec0
+B
+images/twitter.svg,1/f/1f91e39d3e6c502f3eed64e0cc3d3a0993b96673

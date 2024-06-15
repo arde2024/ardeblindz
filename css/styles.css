@@ -85,23 +85,102 @@ body {
     text-decoration: none;
     border-radius: 5px;
 }
+
 footer {
-    background-color: #032454;
-    color: #fff;
-    padding: 20px;
+    background-color: rgba(6, 6, 6, 1);
+    color: #cccccc;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 64px;
     text-align: center;
 }
 
-.footer-item {
-    margin-bottom: 10px;
+.footer-text-alignment {
+    padding: 0 40px;
 }
 
-.footer-item a {
+.footer-section {
+    width: 30%;
+}
+
+.footer-section h2 {
     color: #ff7d0b;
-    text-decoration: none;
 }
 
-.footer-item a:hover {
+.footer-section p, .footer-section input, .footer-section button {
+    color: rgba(204, 204, 204, 1);
+}
+
+.footer-section input, .footer-section button {
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.footer-section button {
+    background-color: #ff7d0b;
+    border: none;
     color: #fff;
+    cursor: pointer;
 }
 
+.contact-info {
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+.contact-info a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.footer-section a {
+    display: block;
+    color: rgba(204, 204, 204, 1);
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.footer-section a:hover {
+       color: #ff7d0b;
+       filter: brightness(0) saturate(100%) invert(39%) sepia(100%) saturate(1000%) hue-rotate(12deg);
+
+}
+
+hr {
+    border: none;
+    border-top: 1px solid rgba(204, 204, 204, 1);
+    margin: 20px 0;
+}
+
+.footer-logo {
+    height: 88px;
+}
+
+.contact-icon {
+    height: 24px;
+    margin: 0 12px 0 0;
+}
+
+/* New styles for the social media section */
+.social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.social-media a img {
+    height: 24px;
+    width: 32px;
+    filter: grayscale(100%);
+    transition: filter 0.3s;
+}
+
+.social-media a img:hover {
+    filter: brightness(0) saturate(100%) invert(39%) sepia(100%) saturate(1000%) hue-rotate(12deg);
+}
