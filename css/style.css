@@ -200,7 +200,7 @@
 }
 
 .page-header {
-    background: linear-gradient(rgb(171 116 66 / 60%), rgb(171 116 66 / 60%)), url(../images/contact-banner.jpg) center center no-repeat;
+    background: linear-gradient(rgb(171 116 66 / 23%), rgb(171 116 66 / 51%)), url(../images/contact-banner.jpg) center center no-repeat;
     background-size: cover;
 }
 
