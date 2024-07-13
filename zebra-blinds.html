@@ -59,11 +59,6 @@
             align-items: flex-start;
             justify-content: flex-start;
         }
-        .project-details img {
-            max-width: 40%;
-            height: auto;
-            margin-right: 20px;
-        }
         .project-details .details-text {
             flex: 1;
             max-width: 60%;
@@ -74,6 +69,16 @@
         .project-details .details-text p {
             line-height: 1.6;
         }
+        .image-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+.image-container img {
+    width: 100%; /* Set a specific width */
+    height: 200px; /* Set a specific height */
+    object-fit: contain; /* This will ensure that the entire image is displayed */
+}
         @media (max-width: 768px) {
             .projects-container {
                 flex-direction: column;
@@ -81,10 +86,18 @@
             .project-details {
                 flex-direction: column;
                 align-items: flex-start;
+                width: 100%;
             }
+            .project-details .details-text {
+            max-width: 100%;
+        }
             .project-details img {
                 max-width: 100%;
                 margin-bottom: 20px;
+            }
+            .image-container img {
+                flex: 1 0 100%;
+                height: auto;
             }
         }
     </style>
@@ -139,109 +152,129 @@
                 <button data-project="project8">08. Anti-five</button>
             </div>
             <div class="project-details active" id="project1-details">
-                <img src="images/product-1.jpg" alt="Project Image">
-                <div class="details-text">
-                    <div class="product-description">
-                        <h2>Superfine Blackout Zebra Blinds Fabric</h2>
-                        <p>Our Superfine Blackout Zebra Blinds Fabric offers perfect color matching and superior blackout design. Made from 100% polyester, this fabric is recyclable and CE certified.</p>
-                    </div>
-                    <div class="technical-parameters">
-                        <h3>Technical Parameters</h3>
-                        <p>Composition: 100% Polyester</p>
-                        <p>Finished Width: 300cm</p>
-                        <!-- Add more parameters as needed -->
-                    </div>
-                    <div class="advantages">
-                        <h3>Advantages</h3>
-                        <p>Light regulation, UV resistance, sound absorption, energy saving</p>
-                    </div>
-                    <div class="quality-assurance">
-                        <h3>Quality Assurance</h3>
-                        <p>Quality assurance details and environmental certifications.</p>
-                    </div>
-                    <div class="ratings">
-                        <h3>Ratings</h3>
-                        <p>Blackout effect: 5 stars</p>
-                        <p>Sound absorption: 3 stars</p>
-                    </div>
-                    <div class="certifications">
-                        <h3>Certifications</h3>
-                        <p>Certification icons and descriptions.</p>
+                <div class="image-container">
+                    <img src="images/zebra/zebra-3.jpg" alt="Project Image">
+                    <div class="details-text">
+                        <div class="product-description">
+                            <h2>Superfine Blackout Zebra Blinds Fabric</h2>
+                            <p>Our Superfine Blackout Zebra Blinds Fabric offers perfect color matching and superior blackout design. Made from 100% polyester, this fabric is recyclable and CE certified.</p>
+                        </div>
+                        <div class="technical-parameters">
+                            <h3>Technical Parameters</h3>
+                            <p>Composition: 100% Polyester</p>
+                            <p>Finished Width: 300cm</p>
+                            <!-- Add more parameters as needed -->
+                        </div>
+                        <div class="advantages">
+                            <h3>Advantages</h3>
+                            <p>Light regulation, UV resistance, sound absorption, energy saving</p>
+                        </div>
+                        <div class="quality-assurance">
+                            <h3>Quality Assurance</h3>
+                            <p>Quality assurance details and environmental certifications.</p>
+                        </div>
+                        <div class="ratings">
+                            <h3>Ratings</h3>
+                            <p>Blackout effect: 5 stars</p>
+                            <p>Sound absorption: 3 stars</p>
+                        </div>
+                        <div class="certifications">
+                            <h3>Certifications</h3>
+                            <p>Certification icons and descriptions.</p>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="project-details" id="project2-details">
-                <img src="images/product-2.jpg" alt="Project Image">
-                <div class="details-text">
-                    <div class="product-description">
-                        <h2>Superfine Blackout Zebra Blinds Fabric</h2>
-                        <p>Our Superfine Blackout Zebra Blinds Fabric offers perfect color matching and superior blackout design. Made from 100% polyester, this fabric is recyclable and CE certified.</p>
-                    </div>
-                    <div class="technical-parameters">
-                        <h3>Technical Parameters</h3>
-                        <p>Composition: 100% Polyester</p>
-                        <p>Finished Width: 300cm</p>
-                        <!-- Add more parameters as needed -->
-                    </div>
-                    <div class="advantages">
-                        <h3>Advantages</h3>
-                        <p>Light regulation, UV resistance, sound absorption, energy saving</p>
-                    </div>
-                    <div class="quality-assurance">
-                        <h3>Quality Assurance</h3>
-                        <p>Quality assurance details and environmental certifications.</p>
-                    </div>
-                    <div class="ratings">
-                        <h3>Ratings</h3>
-                        <p>Blackout effect: 5 stars</p>
-                        <p>Sound absorption: 3 stars</p>
-                    </div>
-                    <div class="certifications">
-                        <h3>Certifications</h3>
-                        <p>Certification icons and descriptions.</p>
+                <div class="image-container">
+                    <img src="images/zebra/zebra-4.jpg" alt="Project Image">
+                    <div class="details-text">
+                        <div class="product-description">
+                            <h2>Superfine Blackout Zebra Blinds Fabric</h2>
+                            <p>Our Superfine Blackout Zebra Blinds Fabric offers perfect color matching and superior blackout design. Made from 100% polyester, this fabric is recyclable and CE certified.</p>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="project-details" id="project3-details">
-                <img src="images/product-3.jpg" alt="Project Image">
-                <div class="details-text">
-                    <h2>Mexwel Building</h2>
-                    <p>Description for Mexwel Building. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eu magna turpis. Nulla eu quam nec dui rutrum convallis. Mauris id ligula lacinia, sollicitudin tortor sed, euismod nunc. Sed elementum urna at felis vehicula, nec congue arcu tempor.</p>
+                <div class="image-container">
+                    <img src="images/zebra/zebra-5.jpg" alt="Project Image">
+                    <img src="images/zebra/zebra-6.jpg" alt="Project Image">
+                    <img src="images/zebra/zebra-8.jpg" alt="Project Image">
+                    <img src="images/zebra/zebra-9.jpg" alt="Project Image">
+                    <img src="images/zebra/zebra-22-1.jpg" alt="Project Image">
+                    <img src="images/zebra/zebra-22-2.jpg" alt="Project Image">
+                    <img src="images/zebra/zebra-22-3.jpg" alt="Project Image">
+                    <img src="images/zebra/zebra-22-4.jpg" alt="Project Image">
+                    <div class="details-text">
+                        <div class="product-description">
+                            <h2>Superfine Blackout Zebra Blinds Fabric</h2>
+                            <p>Our Superfine Blackout Zebra Blinds Fabric offers perfect color matching and superior blackout design. Made from 100% polyester, this fabric is recyclable and CE certified.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="project-details" id="project4-details">
-                <img src="images/product-4.jpg" alt="Project Image">
-                <div class="details-text">
-                    <h2>Shopping Complex</h2>
-                    <p>Description for Shopping Complex. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eu magna turpis. Nulla eu quam nec dui rutrum convallis. Mauris id ligula lacinia, sollicitudin tortor sed, euismod nunc. Sed elementum urna at felis vehicula, nec congue arcu tempor.</p>
+                <div class="image-container">
+                    <img src="images/zebra/zebra-7.jpg" alt="Project Image">
+                    <div class="details-text">
+                        <div class="product-description">
+                            <h2>Superfine Blackout Zebra Blinds Fabric</h2>
+                            <p>Our Superfine Blackout Zebra Blinds Fabric offers perfect color matching and superior blackout design. Made from 100% polyester, this fabric is recyclable and CE certified.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="project-details" id="project5-details">
-                <img src="images/product-5.jpg" alt="Project Image">
-                <div class="details-text">
-                    <h2>Shopping Complex</h2>
-                    <p>Description for Shopping Complex. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eu magna turpis. Nulla eu quam nec dui rutrum convallis. Mauris id ligula lacinia, sollicitudin tortor sed, euismod nunc. Sed elementum urna at felis vehicula, nec congue arcu tempor.</p>
+                <div class="image-container">
+                    <img src="images/zebra/zebra-10.jpg" alt="Project Image">
+                    <img src="images/zebra/zebra-17.jpg" alt="Project Image">
+                    <img src="images/zebra/zebra-18.jpg" alt="Project Image">
+                    <img src="images/zebra/zebra-19.jpg" alt="Project Image">
+                    <img src="images/zebra/zebra-20.jpg" alt="Project Image">
+                    <img src="images/zebra/zebra-21.jpg" alt="Project Image">
+                    <div class="details-text">
+                        <div class="product-description">
+                            <h2>Superfine Blackout Zebra Blinds Fabric</h2>
+                            <p>Our Superfine Blackout Zebra Blinds Fabric offers perfect color matching and superior blackout design. Made from 100% polyester, this fabric is recyclable and CE certified.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="project-details" id="project6-details">
-                <img src="images/product-6.jpg" alt="Project Image">
-                <div class="details-text">
-                    <h2>Shopping Complex</h2>
-                    <p>Description for Shopping Complex. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eu magna turpis. Nulla eu quam nec dui rutrum convallis. Mauris id ligula lacinia, sollicitudin tortor sed, euismod nunc. Sed elementum urna at felis vehicula, nec congue arcu tempor.</p>
+                <div class="image-container">
+                    <img src="images/zebra/zebra-11.jpg" alt="Project Image">
+                    <img src="images/zebra/zebra-13.jpg" alt="Project Image">
+                    <img src="images/zebra/zebra-14.jpg" alt="Project Image">
+                    <img src="images/zebra/zebra-15.jpg" alt="Project Image">
+                    <div class="details-text">
+                        <div class="product-description">
+                            <h2>Superfine Blackout Zebra Blinds Fabric</h2>
+                            <p>Our Superfine Blackout Zebra Blinds Fabric offers perfect color matching and superior blackout design. Made from 100% polyester, this fabric is recyclable and CE certified.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="project-details" id="project7-details">
-                <img src="images/product-7.jpg" alt="Project Image">
-                <div class="details-text">
-                    <h2>Shopping Complex</h2>
-                    <p>Description for Shopping Complex. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eu magna turpis. Nulla eu quam nec dui rutrum convallis. Mauris id ligula lacinia, sollicitudin tortor sed, euismod nunc. Sed elementum urna at felis vehicula, nec congue arcu tempor.</p>
+                <div class="image-container">
+                    <img src="images/zebra/zebra-12.jpg" alt="Project Image">
+                    <div class="details-text">
+                        <div class="product-description">
+                            <h2>Superfine Blackout Zebra Blinds Fabric</h2>
+                            <p>Our Superfine Blackout Zebra Blinds Fabric offers perfect color matching and superior blackout design. Made from 100% polyester, this fabric is recyclable and CE certified.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="project-details" id="project8-details">
-                <img src="images/product-8.jpg" alt="Project Image">
-                <div class="details-text">
-                    <h2>Shopping Complex</h2>
-                    <p>Description for Shopping Complex. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eu magna turpis. Nulla eu quam nec dui rutrum convallis. Mauris id ligula lacinia, sollicitudin tortor sed, euismod nunc. Sed elementum urna at felis vehicula, nec congue arcu tempor.</p>
+                <div class="image-container">
+                    <img src="images/zebra/zebra-16.jpg" alt="Project Image">
+                    <div class="details-text">
+                        <div class="product-description">
+                            <h2>Superfine Blackout Zebra Blinds Fabric</h2>
+                            <p>Our Superfine Blackout Zebra Blinds Fabric offers perfect color matching and superior blackout design. Made from 100% polyester, this fabric is recyclable and CE certified.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
